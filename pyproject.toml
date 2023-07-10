@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "dreamerv3"
+version = "0.1.0"
+description = ""
+authors = ["Bowen He"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.25.1"
+torch = "^2.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
